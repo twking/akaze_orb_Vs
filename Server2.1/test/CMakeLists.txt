@@ -1,0 +1,3 @@
+add_subdirectory(xxhash)
+add_subdirectory(trainDemo)
+add_subdirectory(tranBookDemo)

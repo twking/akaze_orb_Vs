@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/4/9 16:47:48。
+     1>项目“F:\VS2012_project\huiben2_0\tworb\tworb.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\source\tworb\cmpteKeypoint.cpp ..\source\tworb\computeDescriptors.cpp ..\source\tworb\fast.cpp ..\source\tworb\gausss.cpp
+         gausss.cpp
+         fast.cpp
+         computeDescriptors.cpp
+         cmpteKeypoint.cpp
+         正在生成代码...
+       Lib:
+         F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"F:\VS2012_project\huiben2_0\Debug\tworb.lib" /NOLOGO Debug\cmpteKeypoint.obj
+         Debug\computeDescriptors.obj
+         Debug\fast.obj
+         Debug\gausss.obj
+         tworb.vcxproj -> F:\VS2012_project\huiben2_0\Debug\tworb.lib
+     1>已完成生成项目“F:\VS2012_project\huiben2_0\tworb\tworb.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.68

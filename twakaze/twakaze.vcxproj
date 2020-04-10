@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31BF9B7B-F955-4B39-9FDA-FE4E2B995ECC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>twakaze</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\twakaze\AKAZEConfig.h" />
+    <ClInclude Include="..\source\twakaze\AKAZEFeatures.h" />
+    <ClInclude Include="..\source\twakaze\core\core\core.hpp" />
+    <ClInclude Include="..\source\twakaze\core\core\core_c.h" />
+    <ClInclude Include="..\source\twakaze\core\core\internal.hpp" />
+    <ClInclude Include="..\source\twakaze\core\core\mat.hpp" />
+    <ClInclude Include="..\source\twakaze\core\core\operations.hpp" />
+    <ClInclude Include="..\source\twakaze\core\core\types_c.h" />
+    <ClInclude Include="..\source\twakaze\core\core\version.hpp" />
+    <ClInclude Include="..\source\twakaze\core\precomp.hpp" />
+    <ClInclude Include="..\source\twakaze\img\imgproc\imgproc.hpp" />
+    <ClInclude Include="..\source\twakaze\img\imgproc\types_c.h" />
+    <ClInclude Include="..\source\twakaze\img\precomp.hpp" />
+    <ClInclude Include="..\source\twakaze\keypoint.hpp" />
+    <ClInclude Include="..\source\twakaze\nldiffusion_functions.h" />
+    <ClInclude Include="..\source\twakaze\precomp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\twakaze\AKAZEFeatures.cpp" />
+    <ClCompile Include="..\source\twakaze\core\alloc.cpp" />
+    <ClCompile Include="..\source\twakaze\core\arithm.cpp" />
+    <ClCompile Include="..\source\twakaze\core\convert.cpp" />
+    <ClCompile Include="..\source\twakaze\core\copy.cpp" />
+    <ClCompile Include="..\source\twakaze\core\core_tables.cpp" />
+    <ClCompile Include="..\source\twakaze\core\matmul.cpp" />
+    <ClCompile Include="..\source\twakaze\core\matop.cpp" />
+    <ClCompile Include="..\source\twakaze\core\matrix.cpp" />
+    <ClCompile Include="..\source\twakaze\core\parallel.cpp" />
+    <ClCompile Include="..\source\twakaze\core\system.cpp" />
+    <ClCompile Include="..\source\twakaze\img\deriv.cpp" />
+    <ClCompile Include="..\source\twakaze\img\filter.cpp" />
+    <ClCompile Include="..\source\twakaze\img\smooth.cpp" />
+    <ClCompile Include="..\source\twakaze\img\tables.cpp" />
+    <ClCompile Include="..\source\twakaze\nldiffusion_functions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\source\twakaze\core\README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

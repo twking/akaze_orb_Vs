@@ -1,0 +1,41 @@
+﻿生成启动时间为 2019/4/9 16:47:48。
+     1>项目“F:\VS2012_project\huiben2_0\tran\tran.vcxproj”在节点 7 上(Rebuild 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\matlab_huiben\picData.cpp ..\..\matlab_huiben\resizePIC.cpp pc_test\Imagehalfsample.cpp pc_test\ImageConverter.cpp pc_test\matchWithImageshow.cpp pc_test\c_bmp.cpp Server\matchDestination\hanmmingmatch.cpp Server\matchDestination_main.cpp Server\matchDestination\pc_huiben.cpp Server\pc_dsplib\pc_dsplib.cpp Server\trainTemplate_main.cpp Server\trainTemplate\tran.cpp
+         tran.cpp
+         trainTemplate_main.cpp
+         pc_dsplib.cpp
+         pc_huiben.cpp
+         matchDestination_main.cpp
+     1>f:\vs2012_project\huiben2_0\tran\server\matchdestination_main.cpp(5): warning C4083: 应输入“)”；找到标识符“）”
+         hanmmingmatch.cpp
+         c_bmp.cpp
+         matchWithImageshow.cpp
+         ImageConverter.cpp
+         Imagehalfsample.cpp
+     1>f:\vs2012_project\huiben2_0\tran\pc_test\imagehalfsample.cpp(36): warning C4101: “srcfiles”: 未引用的局部变量
+         resizePIC.cpp
+         picData.cpp
+         正在生成代码...
+         F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Server\trainTemplate\xxhash.c
+         xxhash.c
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2012_project\huiben2_0\Debug\tran.exe" /INCREMENTAL /NOLOGO opencv_core343d.lib opencv_highgui343d.lib opencv_imgproc343d.lib opencv_features2d343d.lib opencv_imgcodecs343d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\VS2012_project\huiben2_0\Debug\tran.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2012_project\huiben2_0\Debug\tran.lib" /MACHINE:X86 Debug\picData.obj
+         Debug\resizePIC.obj
+         Debug\Imagehalfsample.obj
+         Debug\ImageConverter.obj
+         Debug\matchWithImageshow.obj
+         Debug\c_bmp.obj
+         Debug\hanmmingmatch.obj
+         Debug\matchDestination_main.obj
+         Debug\pc_huiben.obj
+         Debug\pc_dsplib.obj
+         Debug\trainTemplate_main.obj
+         Debug\tran.obj
+         Debug\xxhash.obj
+         tran.vcxproj -> F:\VS2012_project\huiben2_0\Debug\tran.exe
+     1>已完成生成项目“F:\VS2012_project\huiben2_0\tran\tran.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.12
